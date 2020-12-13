@@ -1,0 +1,30 @@
+[
+  {
+    "serviceName":"UserService",
+    "reference":{
+      "InterfaceName":"com.linnana.user.UserService",
+      "Version":"1.0.0"
+    },
+    "param":{
+      "id":"uint64"
+    },
+    "result":{
+      "id":"uint64",
+      "name":"string"
+    }
+  },
+  {
+    "serviceName":"OrderService",
+    "reference":{
+      "InterfaceName":"com.linnana.user.OrderService",
+      "Version":"1.0.0"
+    },
+    "param":{
+      "id":"uint64"
+    },
+    "result":{
+      "id":"uint64",
+      "name":"string"
+    }
+  }
+]
